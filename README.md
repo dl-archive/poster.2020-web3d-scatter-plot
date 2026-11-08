@@ -30,13 +30,24 @@ DOI: [10.1145/3424616.3424730](https://doi.org/10.1145/3424616.3424730) · Autho
 ```
 
 The bundled `acmart.cls` (v1.71, 2020) is built with the TeX Live 2020 container (the original PDF was produced with pdfTeX 1.40.20, i.e. TeX Live 2019).
-The build reproduces `wagner2020-scatter-as-submitted.pdf` (identical text and layout; the figure caption differs marginally in glyph rendering).
+On `main`, the build produces the revised version (`v1.1-revised`). Check out `v1.0-camera-ready` to reproduce `wagner2020-scatter-as-submitted.pdf` (identical text and layout; the figure caption differs marginally in glyph rendering).
 
 The slides build (TeX Live 2019, pdfTeX 1.40.20 as the original) reproduces `wagner2020-scatter-slides.pdf` (identical text and layout; one screenshot on page 16 differs by a few pixels).
 
 ## Versions
 
 - [`v1.0-camera-ready`](https://github.com/dl-archive/poster.2020-web3d-scatter-plot/tree/v1.0-camera-ready) – sources as submitted to ACM (2020-09-21)
+- [`v1.1-revised`](https://github.com/dl-archive/poster.2020-web3d-scatter-plot/tree/v1.1-revised) – author's revised version (2026-11-08): grammar and reference fixes, see [Revisions](#revisions)
+
+## Revisions
+
+`v1.1-revised` (2026-11-08) corrects errors in the camera-ready version without changing its content or layout (the slides are unchanged).
+Every page carries the note "Author's revised version (2026-11-08). Version of record: https://doi.org/10.1145/3424616.3424730".
+
+- Grammar and word choice: "on the web", "Figure 1", "different theme" (Figure 1), "human comprehension", "e.g., the commonly used D3 library", "an OS- and (mostly) browser-agnostic implementation", "end users' hardware", "notable examples", "significantly fewer clusters", "less extent", "relevant clusters", "overview of the dataset", "depending on size and format", "the whole source" (duplicate "the"), "Thus, the underlying dataset", "are rendered in high detail, while the remaining subsets", "Table 1", "low-, mid-, and high-end GPU" (Table 1), "as the rendering framework", "as a mesh".
+- Footnote links to potree.org, cesium.com, and webgl-operate.org now work (`\href` instead of `\hyperlink`).
+- Author ORCIDs added to the sources (`\orcid`; acmart 1.71 does not print them in the sigconf format, so the PDF is unchanged).
+- References: journal name capitalization and page range (Linsen et al.), month formatting (Linsen et al., Wegman), page range spacing (Lucieer and Kraak), Schütz 2016 is a master's thesis (TU Wien).
 
 ## Citation
 
