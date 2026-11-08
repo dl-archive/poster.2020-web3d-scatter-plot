@@ -4,7 +4,7 @@
 
 *Proceedings of the 25th International Conference on 3D Web Technology (Web3D '20)*, November 9–13, 2020, Virtual Event, Republic of Korea. ACM, pp. 31:1–2.
 
-DOI: [10.1145/3424616.3424730](https://doi.org/10.1145/3424616.3424730) · Author's version: Zenodo *(pending)* · [ResearchGate](https://www.researchgate.net/publication/345770726)
+DOI: [10.1145/3424616.3424730](https://doi.org/10.1145/3424616.3424730) · Author's version: [Zenodo](https://doi.org/10.5281/zenodo.24061447) · [ResearchGate](https://www.researchgate.net/publication/345770726)
 
 > This paper presents a rendering framework for the visualization of massive point datasets in the web.
 > It includes highly interactive point rendering, cluster visualization, basic interaction methods, and importance-based labeling, while being available for both mobile and desktop browsers.
